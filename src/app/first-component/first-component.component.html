@@ -1,0 +1,14 @@
+<li class="list-group-item">
+  <div class="input-group-btn">
+        <h4>{{getMSG()}}</h4>
+        <div style="width:20px;height:20px;background-color:red;" 
+             *ngIf="status === 'éteint'">
+        </div>
+        <button type="button" class="btn btn-success" 
+                              [disabled] = "!isAuth"
+                              (click)="onAllumer()"  
+        >Action</button>
+        <input type="text" class="form-control" [(ngModel)]="name">
+  </div>
+</li>
+

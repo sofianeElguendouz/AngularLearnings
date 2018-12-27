@@ -1,0 +1,21 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+
+<div style="text-align:center" class="container">
+  <h1>
+    Hellooooooooo {{ title }}!
+  </h1>
+    <div class="row">
+      <div class="col-md-12">
+        <router-outlet></router-outlet>
+        <app-messages></app-messages>
+        <app-first-component theName = "ccccc"></app-first-component>
+        <app-first-component></app-first-component>
+        <app-first-component></app-first-component>
+      </div>
+    </div>
+    <p>{{d | async | date : 'y MMMM EEEE d' | uppercase}}</p>
+</div>
+
+
+
