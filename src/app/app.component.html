@@ -4,11 +4,17 @@
 <div style="text-align:center" class="container">
   <h1>
     Hellooooooooo {{ title }}!
-  </h1>
+  </h1> 
+  <nav>
+    <a routerLink="/dashboard">Dashboard</a>
+    <a routerLink="/heroes">Heroes</a>
+  </nav>
+  <router-outlet></router-outlet>
+  <app-messages></app-messages>
+
+  
     <div class="row">
       <div class="col-md-12">
-        <router-outlet></router-outlet>
-        <app-messages></app-messages>
         <app-first-component theName = "ccccc"></app-first-component>
         <app-first-component></app-first-component>
         <app-first-component></app-first-component>
