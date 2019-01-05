@@ -30,6 +30,7 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
     /*HttpClientInMemoryWebApiModule.forRoot(
       InMemoryDataService, { dataEncapsulation: false }
     )*/
+
   ],
   providers: [],
   bootstrap: [AppComponent]
