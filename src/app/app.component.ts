@@ -13,7 +13,7 @@ export class AppComponent {
     setTimeout(
       () => {
         resolve(date);
-      }, 2000
+      }, 3000
     );
   });
 
