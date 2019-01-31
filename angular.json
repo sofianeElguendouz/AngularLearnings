@@ -95,6 +95,7 @@
         }
       }
     },
+    
     "newApp1-e2e": {
       "root": "e2e/",
       "projectType": "application",
